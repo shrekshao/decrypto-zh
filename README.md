@@ -1,6 +1,6 @@
 # Decrypto
 
-https://whoawhoa.github.io/decrypto/
+https://shrekshao.github.io/decrypto-zh/
 
 ## Decrypto - How To Play
 
