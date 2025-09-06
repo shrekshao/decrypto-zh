@@ -30,18 +30,18 @@
 
     <script src="decrypto.js"></script>
 
-    <title>Decrypto</title>
+    <title>截码战 Decrypto</title>
   </head>
   <body class="bg-dark">
     <div class="container-fluid my-5">
       <div class="container-fluid">
         <div class="row">
           <div class="col-8 bg-info">
-            <p><h3>Decrypto</h3></p>
+            <p><h3>截码战 Decrypto</h3></p>
           </div>
           <div class="col-4">
             <button type="button" class="btn-lg btn-primary align-baseline float-right my-3" data-toggle="modal" data-target="#newGameModal">
-              New Game
+              新游戏
             </button>
           </div>
         </div>
@@ -112,11 +112,11 @@
             <div class="float-left">
             <div class="dropdown">              
               <button class="btn btn-primary btn-lg dropdown-toggle my-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Code
+                密码
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#codeModal" id="revealCodeButton" style:"display:none">Reveal code</a>
-                <a class="dropdown-item" href="#" onclick="generateCode()">Generate new code</a>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#codeModal" id="revealCodeButton" style:"display:none">显示密码</a>
+                <a class="dropdown-item" href="#" onclick="generateCode()">抽取新密码</a>
               </div>
             </div>
           </div>
@@ -138,16 +138,16 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="newGameModalLabel">New Game</h5>
+        <h5 class="modal-title" id="newGameModalLabel">新游戏</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         </button>
       </div>
       <div class="modal-body">
-        Do you want to start a new game?
+        启动一轮新游戏?
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="newGameModalCancelButton">Cancel</button>
-        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="startNewGame()">Start New Game</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="newGameModalCancelButton">取消</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="startNewGame()">新游戏</button>
       </div>
     </div>
   </div>
@@ -178,7 +178,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="codeModalLongTitle">Code</h5>
+        <h5 class="modal-title" id="codeModalLongTitle">密码</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -214,7 +214,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
       </div>
     </div>
   </div>
